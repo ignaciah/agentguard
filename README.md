@@ -44,4 +44,13 @@ AgentGuard is an authorization fabric designed for AI agents. It treats agents a
 - **Delegation Chains** – Agents delegate sub‑tasks with constrained permissions  
 - **Audit Logs** – Every decision is logged for compliance  
 - **Dashboard** – Manage agents, policies, and view real‑time activity  
+## 📦 Getting Started
+
+### Prerequisites
+
+- Node.js 18+ and npm
+- Docker (for OPA)
+- (Optional) OpenAI API key for NL policies
+
+### 1. Clone & Install
 
