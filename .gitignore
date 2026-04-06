@@ -44,3 +44,9 @@ coverage/
 
 # Docker (optional: keep docker-compose.override.yml local)
 docker-compose.override.yml
+
+# Coverage directory (if you add tests)
+coverage/
+
+# Docker (optional: keep docker-compose.override.yml local)
+docker-compose.override.yml
