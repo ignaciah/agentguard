@@ -1,0 +1,8 @@
+app.post('/agents', (req, res) => {
+  const { name, owner, capabilities } = req.body;
+  const id = uuidv4();
+  const apiKey = uuidv4();
+  db.run(`INSERT INTO agents (id, name, owner, capabilities, apiKey) VALUES (?,?,?,?,?)`,
+    [id, name, owner, JSON.stringify(capabilities), apiKey]);
+  res.json({ agentId: id, apiKey });
+});
